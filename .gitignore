@@ -1,0 +1,28 @@
+.env
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+ 
+# --- Virtual environment ---
+venv/
+ 
+# --- Django files ---
+db.sqlite3
+media/
+staticfiles/
+ 
+# --- Environment & settings ---
+.env
+ 
+# --- Coverage & testing ---
+htmlcov/
+.coverage
+ 
+# --- VS Code & OS files ---
+.vscode/
+*.log
+.DS_Store
+Thumbs.db
